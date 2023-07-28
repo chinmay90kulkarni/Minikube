@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: chinmaykulkarni/networking:backend
+        image: nginx:latest
         ports:
         - containerPort: 3000
 ---
